@@ -86,7 +86,7 @@
                                 <label for="CreditCard">Enter Credit Card Number - </label>
                                 <input type="password" name="CreditCard"><br><br>
                         
-                                <button type="submit" style="cursor: pointer;">Submit</button>
+                                <button type="submit" style="cursor: pointer;" onclick="submitbutton()">Submit</button>
                                 <button type="reset" style="cursor: pointer;">Reset</button>
                             </form>
 
@@ -113,5 +113,10 @@
         </footer>
         </center>
         </td></tr></table>
+        <script>
+            function submitbutton() {
+              confirm("Success!");
+            }
+        </script>
 </body>
 </html>
